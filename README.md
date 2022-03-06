@@ -34,7 +34,7 @@ Just provide basic information, appium mocker will help you mock out an appium d
 
 #Simple example in Java
 ```aidl
-    val capabilities= BaseCapabilities(ip = host, port = port, sessionId = sessionId, platform = platform)
-    val appiumDriver = AppiumMocker.mock(baseCapabilities = capabilities) as AndroidDriver
-    logger.info(appiumDriver.pageSource)
+    BaseCapabilities capabilities = new BaseCapabilities(host,port,sessionId,platform);
+    AndroidDriver androidDriver = (AndroidDriver) AppiumMocker.INSTANCE.mock(capabilities);
+    logger.info(androidDriver.getPageSource());
 ```
