@@ -1,6 +1,6 @@
 package com.github.lzx
 
-import com.github.lzx.enum.MockPlatform
+import com.github.lzx.enums.MockPlatform
 
 class BaseCapabilities(
     var ip: String,
@@ -10,7 +10,7 @@ class BaseCapabilities(
 ) {
     var brandPackage: String? = null
 
-    fun setBrandPackage(brandPackage: String): BaseCapabilities = this.apply {
+    fun applyBrandPackage(brandPackage: String): BaseCapabilities = this.apply {
         this@BaseCapabilities.brandPackage = brandPackage
     }
 }

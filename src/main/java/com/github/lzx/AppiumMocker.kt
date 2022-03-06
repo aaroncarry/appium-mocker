@@ -1,6 +1,6 @@
 package com.github.lzx
 
-import com.github.lzx.enum.MockPlatform
+import com.github.lzx.enums.MockPlatform
 import io.appium.java_client.AppiumDriver
 import io.appium.java_client.AppiumExecutionMethod
 import io.appium.java_client.MobileCommand

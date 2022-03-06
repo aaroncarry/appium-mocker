@@ -1,4 +1,4 @@
-package com.github.lzx.enum
+package com.github.lzx.enums
 
 enum class MockPlatform(value: String) {
     ANDROID("android"),
