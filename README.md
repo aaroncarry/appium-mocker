@@ -1,6 +1,15 @@
 # appium-mocker
 A tool that can mock out an existing Appium session, supports both Java and Kotlin.
 
+# How to install latest appium-mocker Beta/Snapshots
+```
+<dependency>
+    <groupId>com.github.lzx</groupId>
+    <artifactId>appium-mocker</artifactId>
+    <version>latest commit ID from master branch</version>
+</dependency>
+```
+
 
 # Mock(Attach) a appium session
 
