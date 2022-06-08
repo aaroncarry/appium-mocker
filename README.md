@@ -6,7 +6,7 @@ A tool that can mock out an existing Appium session, supports both Java and Kotl
 <dependency>
     <groupId>com.github.lzx</groupId>
     <artifactId>appium-mocker</artifactId>
-    <version>latest commit ID from master branch</version>
+    <version>1.0-SNAPSHOT</version>
 </dependency>
 ```
 
